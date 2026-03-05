@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Fairway Dental Oral Health Blog</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f26e2c",
+                        "background-light": "#f8f6f5",
+                        "background-dark": "#221610",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen flex flex-col">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-slate-800 px-10 py-4 max-w-7xl mx-auto w-full">
+<div class="flex items-center gap-4 text-slate-900 dark:text-slate-100">
+<div class="size-6 text-primary">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-tight">Fairway Dental</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8 items-center">
+<nav class="flex items-center gap-8 hidden md:flex">
+<a class="text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary text-sm font-medium transition-colors" href="#">Home</a>
+<a class="text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary text-sm font-medium transition-colors" href="#">About</a>
+<a class="text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary text-sm font-medium transition-colors" href="#">Services</a>
+<a class="text-primary font-bold text-sm transition-colors border-b-2 border-primary pb-1" href="#">Blog</a>
+<a class="text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary text-sm font-medium transition-colors" href="#">Contact</a>
+</nav>
+<button class="flex items-center justify-center rounded-lg h-10 px-6 bg-primary text-white text-sm font-bold shadow-md hover:bg-orange-600 transition-colors">
+<span>Book Appointment</span>
+</button>
+</div>
+</header>
+<main class="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12">
+<div class="mb-10 text-center md:text-left">
+<h1 class="text-4xl md:text-5xl font-black leading-tight tracking-tight text-slate-900 dark:text-white mb-4">Oral Health Blog</h1>
+<p class="text-lg text-slate-600 dark:text-slate-400 max-w-2xl">Expert insights, dental tips, and the latest news in oral care to keep your smile bright and healthy.</p>
+</div>
+<div class="flex gap-3 mb-10 overflow-x-auto pb-2 scrollbar-hide">
+<button class="flex h-10 shrink-0 items-center justify-center rounded-full bg-primary text-white px-6 shadow-sm">
+<span class="text-sm font-bold">All</span>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center rounded-full bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 px-6 transition-colors">
+<span class="text-sm font-medium">Cosmetic Dentistry</span>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center rounded-full bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 px-6 transition-colors">
+<span class="text-sm font-medium">Teeth Protection</span>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center rounded-full bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 px-6 transition-colors">
+<span class="text-sm font-medium">Pediatric Dentistry</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+<!-- Blog Post 1 -->
+<article class="flex flex-col group cursor-pointer">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-xl mb-5 overflow-hidden shadow-sm" data-alt="Close up of a person smiling with white teeth" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuApx0Ba-7tiuNa9tCczTFYe3jS3NqPVtXu9PtXt-FORYzVmQDkdByzkA5tFxJeiE7GkDS0IHEFSm-QYvaTnt5HhXzCzYN2jZ1jEvFkwyeLc5XvklE2AnB2DHHJHqZO6VarjzUlxjzFITwqBUgOJJgBjPLy25lY5kf0ZV31wYgI0jLLzaerfmiV-mYH1wwT8XTujJFz_DAOvirTz8a7a8BZgDVRMg4OVHX1Py-zEn0gCOGKpTAgP8E_TPKzzpi4IROnIuyaYSv0WulpC");'>
+<div class="w-full h-full bg-black/10 group-hover:bg-transparent transition-all duration-300"></div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold uppercase tracking-wider text-primary bg-primary/10 px-2 py-1 rounded">Oral Care</span>
+</div>
+<h3 class="text-xl font-bold leading-snug mb-2 text-slate-900 dark:text-white group-hover:text-primary transition-colors">Bad Oral Health Fads You Should Avoid</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4 line-clamp-2">Discover which trendy dental practices might actually be doing more harm than good to your precious enamel.</p>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-500">MD</div>
+<span class="text-xs font-medium text-slate-500 dark:text-slate-400">Melisa Daveiga • Oct 12, 2023</span>
+</div>
+<span class="text-primary text-sm font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                                Read <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+</div>
+</div>
+</article>
+<!-- Blog Post 2 -->
+<article class="flex flex-col group cursor-pointer">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-xl mb-5 overflow-hidden shadow-sm" data-alt="Dental tools laid out on a tray" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC87JGGFhwQ5dEquQuj-D5rTjUKWNUn0Jsu_dHjdZFHw3XAttwEnX06FSrJSu0oZ0wWEEl9bnV3wvS98pO0B6JoeGT3HCEifgl9KjZVm9yhjjs1SVyjodCSZ_Z0eRT7xXQGh6k-4BpGtNFFB1Xz5-9Har0zvLgtaKl0-ETNqwUuvRhTJjmVhajMA-1-VRwN_ith9m_BL5kchL2Dxo0f6AMClEOxCF1wjuwfEIIfGu46ro_l6_13CHSLKASNfNjt0DLwQSjc8yJ7jpHz");'>
+<div class="w-full h-full bg-black/10 group-hover:bg-transparent transition-all duration-300"></div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold uppercase tracking-wider text-primary bg-primary/10 px-2 py-1 rounded">Cosmetic</span>
+</div>
+<h3 class="text-xl font-bold leading-snug mb-2 text-slate-900 dark:text-white group-hover:text-primary transition-colors">An Introduction To Dental Veneers</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4 line-clamp-2">Everything you need to know about getting veneers, the process, costs, and how they can transform your smile permanently.</p>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-500">MD</div>
+<span class="text-xs font-medium text-slate-500 dark:text-slate-400">Melisa Daveiga • Oct 05, 2023</span>
+</div>
+<span class="text-primary text-sm font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                                Read <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+</div>
+</div>
+</article>
+<!-- Blog Post 3 -->
+<article class="flex flex-col group cursor-pointer">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-xl mb-5 overflow-hidden shadow-sm" data-alt="Toothbrush with toothpaste on it" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDyvwAyju_e5H5eRtNC_2lu6Yh_m5cEZrtVYvZ7lja0PxUjPeyvrz_H27oGJ2sb10-wWjN8o7UUvHi0VAaB5p_lZ0Hf0dwGPsfzklf7Zdl8JZ07pgUl1baC02zXzyZWT8YjgmdzfOPkUdF0-S6hCWTHvTU7ej3UU9jKEejmggLVsjoDb1zp3C8Sjq78e67BptzG-vvopMmXBpSwb5bxRUQQDzUaR4yiXdmZWfeGAhMm1Y7q7-sW5FOX-r5OTKcGan5dtfPwCOhFzK7H");'>
+<div class="w-full h-full bg-black/10 group-hover:bg-transparent transition-all duration-300"></div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold uppercase tracking-wider text-primary bg-primary/10 px-2 py-1 rounded">Protection</span>
+</div>
+<h3 class="text-xl font-bold leading-snug mb-2 text-slate-900 dark:text-white group-hover:text-primary transition-colors">Daily Habits for Unbreakable Teeth</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4 line-clamp-2">Simple routines you can incorporate into your morning and evening that will fortify your teeth against decay.</p>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-500">JD</div>
+<span class="text-xs font-medium text-slate-500 dark:text-slate-400">Dr. John Doe • Sep 28, 2023</span>
+</div>
+<span class="text-primary text-sm font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                                Read <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+</div>
+</div>
+</article>
+<!-- Blog Post 4 -->
+<article class="flex flex-col group cursor-pointer">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-xl mb-5 overflow-hidden shadow-sm" data-alt="Dentist examining a patient's teeth" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAdjc9toJLMQP59gu1uSZ1n4aGPVKZYBq3bQiqbN8tFb9OcSy0vMVQ0DLCEUF2XNLuoVItEBFNJKiEvlg7ZY6VfnpbMyR87lXIWpQ4x3qLrfs5bgzW9anmlWvbCX7QrxQz_p0fqsJnmPIBic9XWJRs7DugQJK3hmAB2xZfVYyaahkAK4zWIdoVfIi65OdB-tRPAb89ho9lxBFN1hvQPEJ6NTYYOkptkQ7yA0kPZu_BxI_CyfQaI0ZwOtIzqmoX3YmDRPKTU2MJjZXG7");'>
+<div class="w-full h-full bg-black/10 group-hover:bg-transparent transition-all duration-300"></div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold uppercase tracking-wider text-primary bg-primary/10 px-2 py-1 rounded">Checkups</span>
+</div>
+<h3 class="text-xl font-bold leading-snug mb-2 text-slate-900 dark:text-white group-hover:text-primary transition-colors">Why Bi-Annual Checkups Matter</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4 line-clamp-2">Skipping your 6-month cleaning? Here is why those regular visits are crucial for preventing serious issues.</p>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-500">JD</div>
+<span class="text-xs font-medium text-slate-500 dark:text-slate-400">Dr. John Doe • Sep 15, 2023</span>
+</div>
+<span class="text-primary text-sm font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                                Read <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+</div>
+</div>
+</article>
+<!-- Blog Post 5 -->
+<article class="flex flex-col group cursor-pointer">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-xl mb-5 overflow-hidden shadow-sm" data-alt="Child smiling in a dentist chair" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCvLWZAKKvvTsgNx4HtzcKhuqkrNOVmHCBKuBxfK9RLo8OTecwapvUJ1jjFJu8_tGvQqr-rLCu9RcVZLbM1dpTYvaty9uBSRFc_fN6Wvm690P5br3rALROy-qRb3eV1UBSAf6BJ8z5TiteoVYgxo_crIrShnPvJ81K0IQB9gVjTe6Cp98O1CBd4KhetUDPwvs0IHx1RZlqCfnKX-DFjLUvKG3O5ZM9GLYvaOpMaPvhPE6GwgnKBEjlCKFuygLLHA78lDi_AY_nxxJnf");'>
+<div class="w-full h-full bg-black/10 group-hover:bg-transparent transition-all duration-300"></div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold uppercase tracking-wider text-primary bg-primary/10 px-2 py-1 rounded">Pediatric</span>
+</div>
+<h3 class="text-xl font-bold leading-snug mb-2 text-slate-900 dark:text-white group-hover:text-primary transition-colors">Making the Dentist Fun for Kids</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4 line-clamp-2">Tips and tricks to ease dental anxiety in toddlers and children for tear-free appointments.</p>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-500">AS</div>
+<span class="text-xs font-medium text-slate-500 dark:text-slate-400">Anna Smith • Sep 02, 2023</span>
+</div>
+<span class="text-primary text-sm font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                                Read <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+</div>
+</div>
+</article>
+<!-- Blog Post 6 -->
+<article class="flex flex-col group cursor-pointer">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-xl mb-5 overflow-hidden shadow-sm" data-alt="Clear aligners held in hand" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA5w_CH8OZQM-vk6jxHk3wwuzdhjErthLqEzcUlZ3nPH45uGMYjEVJojXqsNzuzypxFcFI0QuCvaBwvVtxU1Wz2EKwyI5VCPMMIClqgTRMU5gVVdmuftCAirNAEKmHgMDa0dHEgB0YONVp1EO_9ugiU5v7Npbe24Q4l6fN-vgazyS00ofp1p1SlVzeJM4v8a-SubEVSQ8lB9Z1aO34HiZeAVfccYEURjGm9sq__eR321heytX_tk0LAM6IQWu4LoipaAouR_NJAfVvm");'>
+<div class="w-full h-full bg-black/10 group-hover:bg-transparent transition-all duration-300"></div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold uppercase tracking-wider text-primary bg-primary/10 px-2 py-1 rounded">Orthodontics</span>
+</div>
+<h3 class="text-xl font-bold leading-snug mb-2 text-slate-900 dark:text-white group-hover:text-primary transition-colors">Clear Aligners vs. Traditional Braces</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4 line-clamp-2">A comprehensive comparison to help you decide which teeth-straightening method is right for your lifestyle.</p>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-500">MD</div>
+<span class="text-xs font-medium text-slate-500 dark:text-slate-400">Melisa Daveiga • Aug 20, 2023</span>
+</div>
+<span class="text-primary text-sm font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                                Read <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+</div>
+</div>
+</article>
+</div>
+<!-- Pagination -->
+<div class="flex items-center justify-center py-8 mb-8 border-t border-slate-200 dark:border-slate-800">
+<a class="flex size-10 items-center justify-center text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary transition-colors mr-2 disabled opacity-50 cursor-not-allowed" href="#">
+<span class="material-symbols-outlined">chevron_left</span>
+</a>
+<a class="text-sm font-bold flex size-10 items-center justify-center text-white rounded-full bg-primary mx-1 shadow-sm" href="#">1</a>
+<a class="text-sm font-medium flex size-10 items-center justify-center text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full mx-1 transition-colors" href="#">2</a>
+<a class="text-sm font-medium flex size-10 items-center justify-center text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full mx-1 transition-colors" href="#">3</a>
+<span class="flex size-10 items-center justify-center text-slate-400 dark:text-slate-500">...</span>
+<a class="text-sm font-medium flex size-10 items-center justify-center text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full mx-1 transition-colors" href="#">8</a>
+<a class="flex size-10 items-center justify-center text-slate-700 hover:text-primary dark:text-slate-300 dark:hover:text-primary transition-colors ml-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full" href="#">
+<span class="material-symbols-outlined">chevron_right</span>
+</a>
+</div>
+</main>
+<footer class="bg-slate-50 dark:bg-black/20 border-t border-slate-200 dark:border-slate-800 py-12 mt-auto">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2 text-slate-900 dark:text-slate-100 mb-4">
+<div class="size-5 text-primary">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h3 class="font-bold text-lg">Fairway Dental</h3>
+</div>
+<p class="text-sm text-slate-500 dark:text-slate-400 mb-4">Providing exceptional dental care for the whole family in a comfortable environment.</p>
+</div>
+<div>
+<h4 class="font-semibold mb-4 text-slate-900 dark:text-slate-100">Quick Links</h4>
+<ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Home</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">About Us</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Services</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold mb-4 text-slate-900 dark:text-slate-100">Services</h4>
+<ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">General Dentistry</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Cosmetic Dentistry</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Orthodontics</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Pediatric Dentistry</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold mb-4 text-slate-900 dark:text-slate-100">Contact Us</h4>
+<ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px]">location_on</span> 123 Dental Way, Smile City</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px]">call</span> (555) 123-4567</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px]">mail</span> hello@fairwaydental.com</li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-200 dark:border-slate-800 text-center text-sm text-slate-500">
+<p>© 2023 Fairway Dental. All rights reserved.</p>
+</div>
+</footer>
+</div>
+</body></html>
