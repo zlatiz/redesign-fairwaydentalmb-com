@@ -3,9 +3,11 @@
 <html lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Dr. David Latham Bio Page</title>
+<title>Meet Dr. David Latham - Fairway Dental</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Open+Sans:wght@400;600&amp;family=Raleway:wght@700;800&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
@@ -17,9 +19,14 @@
                         "primary": "#f26e2c",
                         "background-light": "#f8f6f5",
                         "background-dark": "#221610",
+                        "neutral-100": "#f5f3f1",
+                        "neutral-200": "#eaddd7",
+                        "neutral-800": "#3b2b24",
+                        "neutral-900": "#1f1511"
                     },
                     fontFamily: {
-                        "display": ["Manrope"]
+                        "display": ["Raleway", "sans-serif"],
+                        "body": ["Open Sans", "sans-serif"]
                     },
                     borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
                 },
@@ -27,144 +34,186 @@
         }
     </script>
 </head>
-<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 flex flex-col min-h-screen">
+<body class="bg-background-light dark:bg-background-dark font-body text-neutral-900 dark:text-neutral-100 min-h-screen flex flex-col antialiased">
 <!-- Header -->
-<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-slate-200 dark:border-b-slate-700 px-10 py-4 bg-background-light dark:bg-background-dark sticky top-0 z-50">
-<div class="flex items-center gap-4 text-slate-900 dark:text-slate-100">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-neutral-200 dark:border-neutral-800 px-10 py-4 bg-white dark:bg-neutral-900 sticky top-0 z-50">
+<div class="flex items-center gap-4 text-neutral-900 dark:text-neutral-100">
 <div class="size-6 text-primary">
 <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z" fill="currentColor"></path>
 </svg>
 </div>
-<h2 class="text-xl font-bold leading-tight tracking-tight">Fairway Dental</h2>
+<h2 class="font-display text-xl font-bold leading-tight tracking-[-0.015em]">Fairway Dental | Family &amp; Cosmetic Dentistry</h2>
 </div>
-<div class="flex flex-1 justify-end gap-8">
-<nav class="hidden md:flex items-center gap-9">
-<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
-<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Services</a>
-<a class="text-sm font-medium text-primary" href="#">Our Team</a>
-<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Patient Info</a>
-<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Contact</a>
+<nav class="flex items-center gap-8 hidden md:flex">
+<a class="text-neutral-800 dark:text-neutral-200 text-sm font-semibold hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-neutral-800 dark:text-neutral-200 text-sm font-semibold hover:text-primary transition-colors" href="#">About Us</a>
+<a class="text-neutral-800 dark:text-neutral-200 text-sm font-semibold hover:text-primary transition-colors" href="#">Services</a>
+<a class="text-neutral-800 dark:text-neutral-200 text-sm font-semibold hover:text-primary transition-colors" href="#">Patient Resources</a>
+<a class="text-neutral-800 dark:text-neutral-200 text-sm font-semibold hover:text-primary transition-colors" href="#">Contact</a>
+<button class="bg-primary hover:bg-primary/90 text-white px-5 py-2.5 rounded-full text-sm font-bold transition-colors">Book Online</button>
 </nav>
-<button class="flex items-center justify-center rounded-lg h-10 px-6 bg-primary text-white text-sm font-bold tracking-wide hover:bg-primary/90 transition-colors">
-                Book Appointment
-            </button>
-</div>
+<button class="md:hidden text-neutral-900 dark:text-neutral-100">
+<span class="material-symbols-outlined">menu</span>
+</button>
 </header>
-<!-- Main Content -->
-<main class="flex-grow">
 <!-- Hero Section -->
-<section class="relative min-h-[500px] flex items-center justify-center bg-cover bg-center" data-alt="Modern dental office interior" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuBIWFndTz3Cg4VHKQnuzsDi3GT2ClmDHGr2iFoOjtSsIJ8tt8Ujp5MutKM-0vf64AB9Klw9vYmkzP7UtqE9WL3PsBZIV3TVaT9sv2olwPQSX1RUyoSel0lGzD_Yq08KNmx_-Y6oaxixYDTTMd6mgGFjC_hQ8ediTFPq4dwFtUQnTIDYI_Vy-_5RW2Jy5thLulHrGcf5uCLofn-jQAzZ11meHf9-8GvYihBrzjIDSbiRU9h3rbALYACGgASzSHxw3wcivX2xhOTQcSU');">
-<div class="text-center px-4 max-w-4xl mx-auto z-10">
-<h1 class="text-white text-5xl md:text-6xl font-black leading-tight tracking-tight mb-4">
-                    Meet Dr. David Latham
-                </h1>
-<p class="text-slate-200 text-lg md:text-xl font-medium mb-8">
-                    Exceptional dental care in Myrtle Beach
-                </p>
-<button class="inline-flex items-center justify-center rounded-lg h-12 px-8 bg-primary/90 text-white text-base font-bold tracking-wide hover:bg-primary transition-colors shadow-lg">
-                    Book an Appointment
-                </button>
+<section class="relative h-[400px] flex items-center justify-center bg-cover bg-center" data-alt="Modern bright dental clinic interior" style='background-image: linear-gradient(rgba(31, 21, 17, 0.6), rgba(31, 21, 17, 0.7)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBKX3hOiLmoVfABFp2DUV2Um5176yQQr1clf_sZlrthoWCfrWsdREL0Rz07pn7d906spTzBIM-dDrv31D1xM2MOKKalu9KvN9aFQonI-PgJ4Q0ryoLh0PMvipskatNgHh-Z8uaeCJzrngXKQsLwcVjiFaxa8d2TAJjgnqfwkkS0i1lU16vFNwpzMjaAjMYSfUijUERQKqAx3oU8E7PMbYZ9ye6kL2y3wHTuLMWJcuW-k-Kl0DHfzB-moMUFxCr01zYYZ2NkFQKdJn0");'>
+<div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+<h1 class="font-display text-white text-4xl md:text-6xl font-extrabold leading-tight tracking-tight mb-4 drop-shadow-lg">
+                Meet Dr. David Latham
+            </h1>
+<p class="text-neutral-200 text-lg md:text-xl font-medium max-w-2xl mx-auto">
+                Dedicated to providing compassionate, comprehensive dental care for your entire family.
+            </p>
 </div>
 </section>
+<!-- Main Content Container -->
+<main class="flex-grow">
 <!-- Biography Section -->
-<section class="py-20 px-6 md:px-12 bg-[#dfded9] dark:bg-slate-800">
-<div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-start">
-<div class="w-full md:w-1/3 flex-shrink-0">
-<img alt="Dr. David Latham" class="w-full h-auto aspect-[3/4] object-cover rounded-xl shadow-xl" data-alt="Professional headshot of Dr. David Latham" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBA732jKp7TbUFLTo1geclcs1KVJn3iII35BplG-3XAg96T2RutNMGNUuOmLV2dDQtnSxUrEHm3yyWm25ftz3gYXAikGFPUNRZc-50Cuzk-xRJz9MUV70-4sOPWBZG_SFUljC9Nwcho6petyE_R2ym-5TVw9wQ4i4DUC35b34-JalnPM403A_jp02jEcGgINrECKDOklW5ECqMgFD6e01-tD6LoRSFxpiOiSAWljJRUNqwH0_UGOwrHPErwS-x4kNWwnnjnMcKym_I"/>
-<div class="mt-6 text-center md:text-left">
-<h2 class="text-2xl font-bold mb-1">Dr. David Latham</h2>
-<p class="text-primary font-medium text-lg">Lead Dentist</p>
+<section class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+<!-- Portrait -->
+<div class="md:col-span-5 relative group">
+<div class="absolute inset-0 bg-primary/10 rounded-2xl transform translate-x-4 translate-y-4 -z-10 transition-transform group-hover:translate-x-6 group-hover:translate-y-6"></div>
+<img alt="Dr. David Latham" class="rounded-2xl w-full h-auto object-cover shadow-xl aspect-[3/4]" data-alt="Professional portrait of Dr David Latham in scrubs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCehRPxGqJArb0FmhrCrODcsi1F8tDexiR8PUJAs6MYB1umiq0FA5fIy2lOdsEjtC9_i7WkvjsmJ0KuF8T6p-dphsWiZjwwGBi8ECgf6GYgiZBSe8LXq3OpRtP-UUqLVHn-iY1LDd9qR3OBgWhWw1zTmJSKoXAEM0vvd8XMnNyd0mSAq4Jlq5rYmvwfVYiSpjQvbj-5hzIazAXVbxuUh-Cbz9dHHPgXpXIxI3pCQlfBlIfIn60sxPqxxc9h8LNS8MIBEds7RMjr8nY"/>
+</div>
+<!-- Bio Text -->
+<div class="md:col-span-7 prose prose-lg dark:prose-invert max-w-none text-neutral-800 dark:text-neutral-200">
+<h2 class="font-display text-3xl md:text-4xl font-bold text-neutral-900 dark:text-white mb-6">About Dr. Latham</h2>
+<p class="mb-4">
+                        Dr. Latham grew up in Utah and earned his BA from Brigham Young University in 2003. He then attended the University of Louisville School of Dentistry, graduating with his DMD in 2007. Following dental school, he completed a rigorous general practice residency at the VA Hospital in Salt Lake City, gaining advanced training in complex restorative and surgical procedures.
+                    </p>
+<p class="mb-4">
+                        After practicing in Colorado for several years, Dr. Latham and his family relocated to the beautiful coastal community of Myrtle Beach to establish Fairway Dental. His philosophy is centered on patient comfort and comprehensive, conservative care. He believes in educating his patients so they can make informed decisions about their oral health.
+                    </p>
+<p>
+                        When he's not in the office, Dr. Latham enjoys golfing at the many local courses, spending time at the beach with his wife and three children, and participating in local community service initiatives.
+                    </p>
+<div class="mt-8 pt-8 border-t border-neutral-200 dark:border-neutral-800 flex flex-wrap gap-4">
+<div class="flex items-center gap-2 text-primary font-semibold">
+<span class="material-symbols-outlined">school</span>
+<span>University of Louisville</span>
+</div>
+<div class="flex items-center gap-2 text-primary font-semibold">
+<span class="material-symbols-outlined">workspace_premium</span>
+<span>15+ Years Experience</span>
 </div>
 </div>
-<div class="w-full md:w-2/3 prose prose-lg dark:prose-invert max-w-none text-slate-800 dark:text-slate-200">
-<p class="mb-6 leading-relaxed">
-                        Dr. Latham grew up in Utah and earned his BA from Brigham Young University in 2003. He went on to attend the Medical University of South Carolina College of Dental Medicine, graduating with his Doctor of Dental Medicine (DMD) degree in 2008.
-                    </p>
-<p class="mb-6 leading-relaxed">
-                        Following dental school, Dr. Latham completed a General Practice Residency at the University of Utah Hospital, where he received advanced training in complex restorative dentistry, oral surgery, and treating medically compromised patients.
-                    </p>
-<p class="leading-relaxed">
-                        He is passionate about continuing education and stays at the forefront of dental technology to provide his patients with the highest standard of care. Dr. Latham believes in a compassionate, patient-centered approach, ensuring everyone feels comfortable and confident in their treatment. When not in the office, he enjoys exploring the beautiful Myrtle Beach coastline with his family, playing golf, and volunteering with local community health initiatives.
-                    </p>
 </div>
 </div>
 </section>
 <!-- Qualifications Section -->
-<section class="py-20 px-6 md:px-12 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
-<div class="max-w-6xl mx-auto">
-<h2 class="text-3xl font-bold mb-12 text-center text-slate-900 dark:text-white">Qualifications &amp; Affiliations</h2>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-<!-- Qualification Card -->
-<div class="bg-background-light dark:bg-slate-800 p-8 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 flex flex-col items-center text-center">
-<span class="material-symbols-outlined text-4xl text-primary mb-4">school</span>
-<h3 class="font-bold text-xl mb-2">Education</h3>
-<p class="text-slate-600 dark:text-slate-400">DMD, Medical University of South Carolina<br/>BA, Brigham Young University</p>
+<section class="bg-neutral-100 dark:bg-neutral-800/50 py-16 md:py-24 border-y border-neutral-200 dark:border-neutral-800">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="text-center mb-12">
+<h2 class="font-display text-3xl md:text-4xl font-bold text-neutral-900 dark:text-white">Qualifications &amp; Affiliations</h2>
+<div class="h-1 w-20 bg-primary mx-auto mt-4 rounded-full"></div>
 </div>
-<!-- Qualification Card -->
-<div class="bg-background-light dark:bg-slate-800 p-8 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 flex flex-col items-center text-center">
-<span class="material-symbols-outlined text-4xl text-primary mb-4">workspace_premium</span>
-<h3 class="font-bold text-xl mb-2">Residency</h3>
-<p class="text-slate-600 dark:text-slate-400">General Practice Residency<br/>University of Utah Hospital</p>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Qualification Card 1 -->
+<div class="bg-white dark:bg-neutral-900 p-6 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-800 flex items-start gap-4">
+<div class="p-3 bg-primary/10 text-primary rounded-lg shrink-0">
+<span class="material-symbols-outlined text-2xl">local_library</span>
 </div>
-<!-- Qualification Card -->
-<div class="bg-background-light dark:bg-slate-800 p-8 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 flex flex-col items-center text-center">
-<span class="material-symbols-outlined text-4xl text-primary mb-4">verified</span>
-<h3 class="font-bold text-xl mb-2">Memberships</h3>
-<p class="text-slate-600 dark:text-slate-400">American Dental Association (ADA)<br/>South Carolina Dental Association</p>
+<div>
+<h3 class="font-bold text-lg text-neutral-900 dark:text-white mb-1">Education</h3>
+<ul class="text-neutral-600 dark:text-neutral-400 text-sm space-y-1">
+<li>DMD, University of Louisville</li>
+<li>BA, Brigham Young University</li>
+<li>General Practice Residency, SLC VA</li>
+</ul>
 </div>
 </div>
-<div class="mt-16 text-center">
-<button class="inline-flex items-center justify-center rounded-lg h-14 px-10 bg-[rgba(242,112,46,0.9)] text-white text-lg font-bold tracking-wide hover:bg-primary transition-colors shadow-lg">
-                        Schedule a Consultation
-                    </button>
+<!-- Qualification Card 2 -->
+<div class="bg-white dark:bg-neutral-900 p-6 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-800 flex items-start gap-4">
+<div class="p-3 bg-primary/10 text-primary rounded-lg shrink-0">
+<span class="material-symbols-outlined text-2xl">verified</span>
 </div>
+<div>
+<h3 class="font-bold text-lg text-neutral-900 dark:text-white mb-1">Memberships</h3>
+<ul class="text-neutral-600 dark:text-neutral-400 text-sm space-y-1">
+<li>American Dental Association (ADA)</li>
+<li>South Carolina Dental Association</li>
+<li>Academy of General Dentistry</li>
+</ul>
+</div>
+</div>
+<!-- Qualification Card 3 -->
+<div class="bg-white dark:bg-neutral-900 p-6 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-800 flex items-start gap-4">
+<div class="p-3 bg-primary/10 text-primary rounded-lg shrink-0">
+<span class="material-symbols-outlined text-2xl">medical_services</span>
+</div>
+<div>
+<h3 class="font-bold text-lg text-neutral-900 dark:text-white mb-1">Specialized Training</h3>
+<ul class="text-neutral-600 dark:text-neutral-400 text-sm space-y-1">
+<li>Advanced Implant Restorations</li>
+<li>Cosmetic Veneers &amp; Bonding</li>
+<li>Invisalign Certified Provider</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-20 md:py-28 px-6 text-center">
+<div class="max-w-2xl mx-auto flex flex-col items-center">
+<span class="material-symbols-outlined text-primary text-5xl mb-4">calendar_month</span>
+<h2 class="font-display text-3xl md:text-4xl font-bold text-neutral-900 dark:text-white mb-4">Ready to improve your smile?</h2>
+<p class="text-neutral-600 dark:text-neutral-400 text-lg mb-8">
+                    Schedule your consultation with Dr. Latham today to discuss your dental health needs.
+                </p>
+<button class="bg-primary hover:bg-primary/90 text-white text-lg font-bold py-4 px-10 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">
+                    Schedule a Consultation
+                </button>
 </div>
 </section>
 </main>
 <!-- Footer -->
-<footer class="bg-slate-900 text-slate-300 py-12 px-10 mt-auto border-t border-slate-800">
-<div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
-<div>
-<div class="flex items-center gap-3 text-white mb-6">
-<div class="size-6 text-primary">
+<footer class="bg-neutral-900 text-neutral-300 py-12 border-t-4 border-primary mt-auto">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 border-b border-neutral-800 pb-8">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center gap-3 text-white mb-4">
+<div class="size-5 text-primary">
 <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z" fill="currentColor"></path>
 </svg>
 </div>
-<span class="text-xl font-bold tracking-tight">Fairway Dental</span>
+<h3 class="font-display text-xl font-bold">Fairway Dental</h3>
 </div>
-<p class="text-sm leading-relaxed mb-4">Exceptional dental care for the whole family in Myrtle Beach. Experience comfortable, modern dentistry.</p>
+<p class="text-sm max-w-sm mb-4">Providing exceptional family and cosmetic dentistry services to the Myrtle Beach community.</p>
 </div>
 <div>
-<h4 class="text-white font-bold mb-6 text-lg">Contact Us</h4>
-<ul class="space-y-4 text-sm">
-<li class="flex items-start gap-3">
-<span class="material-symbols-outlined text-primary text-xl">location_on</span>
-<span>123 Coastal Highway<br/>Myrtle Beach, SC 29577</span>
+<h4 class="text-white font-bold mb-4 font-display">Contact Us</h4>
+<ul class="space-y-3 text-sm">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-base">location_on</span>
+<span>123 Fairway Drive<br/>Myrtle Beach, SC 29577</span>
 </li>
-<li class="flex items-center gap-3">
-<span class="material-symbols-outlined text-primary text-xl">phone</span>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">phone</span>
 <span>(555) 123-4567</span>
 </li>
-<li class="flex items-center gap-3">
-<span class="material-symbols-outlined text-primary text-xl">mail</span>
-<span>info@fairwaydental.com</span>
-</li>
 </ul>
 </div>
 <div>
-<h4 class="text-white font-bold mb-6 text-lg">Quick Links</h4>
-<ul class="space-y-3 text-sm flex flex-col">
-<a class="hover:text-primary transition-colors" href="#">Our Services</a>
-<a class="hover:text-primary transition-colors" href="#">Meet the Team</a>
-<a class="hover:text-primary transition-colors" href="#">New Patient Info</a>
-<a class="hover:text-primary transition-colors" href="#">Request Appointment</a>
+<h4 class="text-white font-bold mb-4 font-display">Quick Links</h4>
+<ul class="space-y-2 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Services</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Patient Forms</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Financial Info</a></li>
 </ul>
 </div>
 </div>
-<div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-slate-800 text-sm text-center text-slate-500">
-            © 2024 Fairway Dental. All rights reserved.
-        </div>
+<div class="flex flex-col md:flex-row justify-between items-center text-sm text-neutral-500">
+<p>© 2024 Fairway Dental. All rights reserved.</p>
+<a class="flex items-center gap-1 hover:text-white transition-colors mt-4 md:mt-0 font-semibold" href="#">
+<span>Back To Top</span>
+<span class="material-symbols-outlined text-sm">arrow_upward</span>
+</a>
+</div>
+</div>
 </footer>
 </body></html>
