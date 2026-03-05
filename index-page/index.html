@@ -1,138 +1,111 @@
 <!DOCTYPE html>
 
-<html lang="en"><head>
+<html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Fairway Dental | Family &amp; Cosmetic Dentistry</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "primary": "#f26e2c",
-                        "background-light": "#dfded9",
-                        "background-dark": "#221610",
-                    },
-                    fontFamily: {
-                        "display": ["Inter", "sans-serif"]
-                    },
-                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
-                },
-            },
-        }
-    </script>
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        colors: {
+          "primary": "#f26e2c",
+          "background-light": "#dfded9",
+          "background-dark": "#221610",
+        },
+        fontFamily: {
+          "display": ["Manrope"]
+        },
+        borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+      },
+    },
+  }
+</script>
 </head>
-<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen antialiased">
-<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden group/design-root">
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display antialiased">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
 <div class="layout-container flex h-full grow flex-col">
-<div class="flex flex-1 justify-center">
+<div class="flex flex-1 justify-center py-0">
 <div class="layout-content-container flex flex-col w-full flex-1">
-<!-- Header -->
-<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-300 dark:border-slate-700 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md px-10 py-4 w-full">
-<div class="flex items-center gap-4 text-primary">
-<span class="material-symbols-outlined text-3xl">dentistry</span>
-<h2 class="text-slate-900 dark:text-slate-100 text-xl font-bold leading-tight tracking-[-0.015em]">Fairway Dental | Family &amp; Cosmetic Dentistry</h2>
+<header class="flex flex-wrap items-center justify-between whitespace-nowrap border-b border-solid border-slate-300 dark:border-slate-700 px-6 py-4 bg-white/50 dark:bg-black/20 backdrop-blur-md sticky top-0 z-50">
+<div class="flex items-center gap-4">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z" fill="currentColor"></path>
+</svg>
 </div>
-<div class="flex items-center gap-8">
-<nav class="flex items-center gap-9">
-<a class="text-slate-900 dark:text-slate-100 text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
-<a class="text-slate-900 dark:text-slate-100 text-sm font-medium hover:text-primary transition-colors" href="#">Meet Dr. Latham</a>
-<a class="text-slate-900 dark:text-slate-100 text-sm font-medium hover:text-primary transition-colors" href="#">Services</a>
-<a class="text-slate-900 dark:text-slate-100 text-sm font-medium hover:text-primary transition-colors" href="#">Patient Info</a>
+<h2 class="text-xl font-bold leading-tight tracking-[-0.015em]">Fairway Dental | Family &amp; Cosmetic Dentistry</h2>
+</div>
+<div class="flex flex-1 justify-end gap-4 md:gap-8 mt-4 lg:mt-0 overflow-x-auto pb-2 lg:pb-0">
+<nav class="flex items-center gap-4 md:gap-6 min-w-max px-2">
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Welcome</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Services</a>
+<a class="text-sm font-bold text-primary leading-normal" href="#">Home</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Meet Dr. Latham</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Meet the Team</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Blog</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Testimonials</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Smile Gallery</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">First Visit</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Patient Forms</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Financing</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Contact</a>
 </nav>
-<button class="flex min-w-[84px] cursor-pointer items-center justify-center rounded-lg h-10 px-5 bg-primary text-white text-sm font-bold shadow-sm hover:bg-primary/90 transition-colors">
-<span class="truncate">Request an Appointment</span>
-</button>
 </div>
 </header>
-<!-- Hero Section -->
-<div class="@container px-4 py-8 sm:px-10 max-w-[1440px] mx-auto w-full">
-<div class="flex min-h-[500px] flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-xl items-start justify-center px-8 sm:px-16" data-alt="Modern dental clinic interior" style='background-image: linear-gradient(rgba(34, 22, 16, 0.4) 0%, rgba(34, 22, 16, 0.7) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCmGzymHqK5bVHe22L4yHqJlj_Y1Ae6B_t3t-pAqqK5mZgmq7TDs_HmknOZr4cx0c6rlh0aqA40nDnhXB3Pge9df1FG7EA66QJSrJvIBz1h82Irdph6hkGFrAwIpyQfByGvyObSLO7_18oaxrbxvHGAZq4FK_FwaSN_M7tX3NWJqx-lGsSa7Af5z9Z3RnvSOhJbtMZM_NZAurnH1CgBmIW9OZunLu6w27CfWpwD9Q4HDZnVn5hPb-mahTHE00js9n80_SVhpbvQA_wC");'>
-<div class="flex flex-col gap-4 text-left max-w-2xl">
-<h1 class="text-white text-5xl sm:text-6xl font-black leading-tight tracking-tight">
-                                    Fairway Dental -
-                                </h1>
-<h2 class="text-slate-100 text-xl sm:text-2xl font-medium leading-relaxed">
-                                    Myrtle Beach SC Family Dentist
-                                </h2>
-</div>
-<button class="mt-4 flex cursor-pointer items-center justify-center rounded-lg h-12 px-8 bg-primary text-white text-base font-bold shadow-lg hover:bg-primary/90 transition-transform hover:scale-105">
-<span class="truncate">Request an Appointment</span>
-</button>
+<section class="w-full relative">
+<div class="w-full bg-cover bg-center flex flex-col justify-center items-center min-h-[400px] md:min-h-[500px]" data-alt="Modern dental office interior" style="background-image: linear-gradient(0deg, rgba(34, 22, 16, 0.6) 0%, rgba(34, 22, 16, 0.4) 100%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuCnzVpdMmIXt4JK3pK9jBcKcyvKPhHj_YLGhYaGPsawQ8Gd_2Eh4928qDUBQ9_xKeYt6azrwXCJ32bH-ULQDkrcSPWbAwO7h-584SoRdPhJ_lN0PEVDVCUgKiuym0ePi85Teucmoikr_8sqcG1zKZOs1StA1alLBihZm7nYtvqFJrDV2wZYfGB563VUuWhvF52q_hEnLxAl5AwDorh-koIcmljws91y3D8lQqXu-SUWuheBxuPTcWLrNNEDmpUhUmQsFKvjliDeLVE');">
+<div class="text-center p-6 mt-10">
+<h1 class="text-white text-5xl md:text-6xl font-black leading-tight mb-2 font-display">Fairway Dental</h1>
+<p class="text-slate-200 text-xl md:text-2xl font-medium tracking-wide">Myrtle Beach SC Family Dentist</p>
 </div>
 </div>
-<!-- Dr Latham Section -->
-<div class="@container max-w-[1440px] mx-auto w-full">
-<div class="flex flex-col gap-12 px-4 py-16 sm:px-10 lg:flex-row lg:items-center">
-<div class="w-full lg:w-1/2 aspect-[4/3] bg-center bg-no-repeat bg-cover rounded-xl shadow-md" data-alt="Dr. Latham smiling in dental office" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCQuZ4S_X2faMuikrLesMuBuf70LLNI_u9A9xkmyoEjfm6pfk1EzHk1c5tNQoEiWxLqpAbvftouNaAGKLMYZUEPwMGbh2M5oqR2ittz4w87JJ5I828dM9vv8vEwiz8cYsWMBtu3eacRkZFLwfOSNRD60CVM4dTwNvjIZJ-uUoaNbIu2WQJ5z2iCww6d1n1l13UioF5nY-52IDsVeJFwtOzil5EVUg6TYE72wis0DeQ5EfrTVPtSQ1_QdOCHbI1dWXbmDscuCAPr82J7");'>
+</section>
+<section class="w-full flex justify-center py-16 px-4 md:px-8">
+<div class="max-w-[1200px] w-full flex flex-col md:flex-row gap-10 md:gap-16 items-center">
+<div class="w-full md:w-1/2 aspect-[4/5] rounded-xl overflow-hidden shadow-2xl relative">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Professional portrait of Dr. Latham" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBbo1MWhNHhy6SYD0qKaSv0O2tLIQXPixYF2djzhkXMuxsDwg2dAvHx8q5IF5IqcRX2lj7z1X7vwRkfj7EeAi0keHbD11_YHo2k8BWKRw8sCunA4SMzrJfjoMXwfRTdKQe1YFiZndhuubHW_rvOtPcNkehxrLPoMofCgaBXg58Dr88VolmsejJFnFlOYcr5EnUeCNL3OZ6TDMxpIHswznqtxs-bxHRH0YRgTHoNC_miocafvrQG6pMtg1SjkZj5v-EX8YaK7PksSEo');"></div>
 </div>
-<div class="flex flex-col gap-8 lg:w-1/2 lg:pl-10">
-<div class="flex flex-col gap-4 text-left">
-<h2 class="text-slate-900 dark:text-slate-100 text-4xl sm:text-5xl font-black leading-tight tracking-tight">
-                                        Get to know Dr. Latham
-                                    </h2>
-<p class="text-slate-700 dark:text-slate-300 text-lg leading-relaxed">
-                                        Dedicated to providing exceptional family and cosmetic dentistry in a comfortable environment. With years of experience and a passion for patient care, Dr. Latham ensures every visit is a positive one.
-                                    </p>
+<div class="w-full md:w-1/2 flex flex-col gap-6 items-start">
+<h2 class="text-4xl md:text-5xl font-black leading-tight tracking-tight text-slate-900 dark:text-white">
+                Get to know<br/><span class="text-primary">Dr. Latham</span>
+</h2>
+<div class="space-y-4 text-base md:text-lg text-slate-700 dark:text-slate-300 leading-relaxed font-sans">
+<p>
+                  Welcome to Fairway Dental. We are committed to providing the highest quality family and cosmetic dentistry in a comfortable, welcoming environment. Dr. Latham and our dedicated team believe that a healthy, beautiful smile is essential to overall well-being.
+                </p>
+<p>
+                  Our practice utilizes state-of-the-art technology and advanced techniques to ensure you receive the best possible care. Whether you need a routine checkup or a complete smile makeover, we are here to help you achieve your dental goals.
+                </p>
 </div>
-<div>
-<button class="flex cursor-pointer items-center justify-center rounded-lg h-12 px-8 border-2 border-primary text-primary hover:bg-primary hover:text-white dark:hover:text-white text-base font-bold transition-colors">
-<span class="truncate">Learn More</span>
-</button>
-</div>
-</div>
-</div>
-</div>
-<!-- Services Teaser (Generated to fill page) -->
-<div class="bg-slate-200/50 dark:bg-slate-800/30 py-16 w-full">
-<div class="max-w-[1440px] mx-auto px-4 sm:px-10">
-<h2 class="text-3xl font-bold text-center mb-12 text-slate-900 dark:text-slate-100">Our Services</h2>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<div class="bg-background-light dark:bg-background-dark p-8 rounded-xl shadow-sm text-center border border-slate-200 dark:border-slate-800">
-<span class="material-symbols-outlined text-4xl text-primary mb-4">family_restroom</span>
-<h3 class="text-xl font-bold mb-2">Family Dentistry</h3>
-<p class="text-slate-600 dark:text-slate-400 text-sm">Comprehensive care for patients of all ages.</p>
-</div>
-<div class="bg-background-light dark:bg-background-dark p-8 rounded-xl shadow-sm text-center border border-slate-200 dark:border-slate-800">
-<span class="material-symbols-outlined text-4xl text-primary mb-4">self_improvement</span>
-<h3 class="text-xl font-bold mb-2">Cosmetic Dentistry</h3>
-<p class="text-slate-600 dark:text-slate-400 text-sm">Enhancing your smile with professional treatments.</p>
-</div>
-<div class="bg-background-light dark:bg-background-dark p-8 rounded-xl shadow-sm text-center border border-slate-200 dark:border-slate-800">
-<span class="material-symbols-outlined text-4xl text-primary mb-4">healing</span>
-<h3 class="text-xl font-bold mb-2">Restorative Care</h3>
-<p class="text-slate-600 dark:text-slate-400 text-sm">Repairing and restoring your dental health.</p>
+<button class="mt-4 flex min-w-[200px] cursor-pointer items-center justify-center rounded-full h-14 px-8 bg-primary hover:bg-primary/90 text-white text-lg font-bold shadow-lg shadow-primary/30 transition-all hover:scale-105">
+                Schedule Your Visit
+              </button>
 </div>
 </div>
+</section>
+<footer class="w-full flex flex-col items-center border-t border-slate-300 dark:border-slate-700 bg-white/30 dark:bg-black/20 py-10 px-6 mt-auto">
+<div class="max-w-[1200px] w-full flex flex-col items-center gap-6 text-center">
+<a class="text-primary text-sm font-semibold uppercase tracking-wider hover:underline flex items-center gap-1" href="#">
+              Back To Top <span class="material-symbols-outlined text-[18px]">arrow_upward</span>
+</a>
+<div class="flex flex-col md:flex-row gap-2 md:gap-6 text-slate-600 dark:text-slate-400 text-sm md:text-base">
+<span>960 Cipriana Drive, Myrtle Beach, SC, 29572</span>
+<span class="hidden md:inline">•</span>
+<a class="hover:text-primary transition-colors font-medium" href="tel:843-839-9552">(843) 839-9552</a>
+<span class="hidden md:inline">•</span>
+<a class="hover:text-primary transition-colors" href="#">Office Hours</a>
 </div>
-</div>
-<!-- Footer -->
-<footer class="flex flex-col gap-8 px-10 py-16 text-center border-t border-slate-300 dark:border-slate-700 mt-auto bg-background-light dark:bg-background-dark w-full">
-<div class="max-w-[1440px] mx-auto w-full flex flex-col items-center">
-<div class="flex items-center gap-2 text-primary mb-8">
-<span class="material-symbols-outlined text-2xl">dentistry</span>
-<h3 class="text-slate-900 dark:text-slate-100 text-lg font-bold">Fairway Dental</h3>
-</div>
-<div class="flex flex-wrap items-center justify-center gap-x-12 gap-y-6 mb-8 w-full max-w-4xl">
-<a class="flex items-center gap-2 text-slate-600 dark:text-slate-400 hover:text-primary transition-colors text-base font-medium" href="tel:843-839-9552">
-<span class="material-symbols-outlined text-sm">call</span>
-                                    (843) 839-9552
-                                </a>
-<div class="flex items-center gap-2 text-slate-600 dark:text-slate-400 text-base font-medium">
-<span class="material-symbols-outlined text-sm">location_on</span>
-                                    Myrtle Beach, SC
-                                </div>
-<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors text-base font-medium" href="#">Home</a>
-<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors text-base font-medium" href="#">Meet Dr. Latham</a>
-<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors text-base font-medium" href="#">Services</a>
-<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors text-base font-medium" href="#">Patient Info</a>
-</div>
-<p class="text-slate-500 dark:text-slate-500 text-sm font-normal">© Fairway Dental. All rights reserved.</p>
+<p class="text-xs text-slate-500 dark:text-slate-500 mt-4">
+              © 2023 Fairway Dental. All rights reserved.
+            </p>
 </div>
 </footer>
 </div>
